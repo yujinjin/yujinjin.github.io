@@ -24,5 +24,4 @@ app打包技术是用[HBuilder IDE](http://www.dcloud.io/index.html)工具一键
 
 列表初始化时也做了优化，对于没有列表数据时显示没有数据的提示信息（可自定义），对于首次加载的数据没有超过一屏时会自动加载下一页的数据，但最多只会自动加载2次（可配置）。
 
-#### demo
 [___Demo___](https://yujinjin.github.io/list-pull-loading/)
