@@ -39,14 +39,16 @@ mobile-message是一个基于移动端的弹窗组件，默认提供info、succe
 # vue-router-transition
 vue页面路由转场切换时的动画插件。(待开发)
 
-# vue-loading
-基于vue实现加载动画插件。(待开发)
+# vue-loading-spin
+vue-loading-spin是基于VUE实现的插件，同时也支持作为组件来使用。默认加载的图标是一个svg旋转的菊花，它用的是vue的默认插槽，也可以根据实际的业务需要自定义其他图标。
+
+[**Demo**](https://yujinjin.github.io/vue-loading-spin/)
 
 # hybrid技术框架协议
 基于H5和APP交互协议。(待开发)
 
-# mobile-framework(待开发)
-基于vue实现移动端项目框架。
+# mobile-framework
+基于vue实现移动端项目框架。(待开发)
 
 # vue-portal-framework
 基于vue elemeUI实现的后台管理系统框架(待开发)
