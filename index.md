@@ -48,7 +48,7 @@ vue-loading-spin是基于VUE实现的插件，同时也支持作为组件来使�
 # vue-nummber-keyboard
 vue-number-keyboard是基于VUE实现的数字键盘插件，当前支持整数、小数数字输入、乱序键盘，demo中给出了常用的验证码、金额数字示例。数字键盘的大小包括字体尺寸支持响应式。
 
-[**Demo**](https://yujinjin.github.io/vue-nummber-keyboard/)
+[**Demo**](https://yujinjin.github.io/vue-number-keyboard/)
 
 # hybrid技术框架协议
 基于H5和APP交互协议。(待开发)
