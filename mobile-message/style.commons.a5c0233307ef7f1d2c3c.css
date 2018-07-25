@@ -242,7 +242,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-.message .message-dialog .message-content .message-header h4 {
+.message .message-dialog .message-content .message-header .message-title {
   font-size: 16px;
   font-weight: 300;
   color: #333;
@@ -305,9 +305,9 @@
   width: 270px;
   border-radius: 10px;
 }
-.message .message-dialog.alert .message-content .message-header h4,
-.message .message-dialog.confirm .message-content .message-header h4,
-.message .message-dialog.prompt .message-content .message-header h4 {
+.message .message-dialog.alert .message-content .message-header .message-title,
+.message .message-dialog.confirm .message-content .message-header .message-title,
+.message .message-dialog.prompt .message-content .message-header .message-title {
   font-size: 17px;
   font-weight: bold;
   color: #000;
@@ -345,7 +345,7 @@
   color: #09BB07;
   font-weight: bold;
 }
-.message .message-dialog.prompt .message-content .message-header h4 {
+.message .message-dialog.prompt .message-content .message-header .message-title {
   font-size: 15px;
   font-weight: normal;
   color: #000;
