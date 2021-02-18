@@ -51,13 +51,24 @@ vue-number-keyboard是基于VUE实现的数字键盘插件，当前支持整数�
 [**Demo**](https://yujinjin.github.io/vue-number-keyboard/)
 
 # hybrid技术框架协议
-基于H5和APP交互协议。(待开发)
+基于H5和APP交互协议。
+
+[**项目**](https://github.com/yujinjin/hybrid-app)
 
 # mobile-framework
-基于vue实现移动端项目框架。(待开发)
+基于vue实现移动端项目框架。
+
+[**项目**](https://github.com/yujinjin/vue-mobile-framework)
 
 # vue-portal-framework
-基于vue elemeUI实现的后台管理系统框架(待开发)
+基于vue elemeUI实现的后台管理系统框架
+
+[**项目**](https://github.com/yujinjin/vue-manager-system)
+
+# wechat-miniprogram-framework
+自己搭建微信小程序框架+脚手架
+
+[**项目**](https://github.com/yujinjin/wechat-miniprogram-framework)
 
 # portal-framework
 正常的portal端框架(待开发)
