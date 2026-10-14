@@ -1,0 +1,58 @@
+<!--
+ * @创建者: yujinjin9@126.com
+ * @描述: 模板页HTML
+-->
+<!doctype html>
+<html>
+    <head>
+      <script>self["MonacoEnvironment"] = (function (paths) {
+          return {
+            globalAPI: false,
+            getWorkerUrl : function (moduleId, label) {
+              var result =  paths[label];
+              if (/^((http:)|(https:)|(file:)|(\/\/))/.test(result)) {
+                var currentUrl = String(window.location);
+                var currentOrigin = currentUrl.substr(0, currentUrl.length - window.location.hash.length - window.location.search.length - window.location.pathname.length);
+                if (result.substring(0, currentOrigin.length) !== currentOrigin) {
+                  var js = '/*' + label + '*/importScripts("' + result + '");';
+                  var blob = new Blob([js], { type: 'application/javascript' });
+                  return URL.createObjectURL(blob);
+                }
+              }
+              return result;
+            }
+          };
+        })({
+  "editorWorkerService": "/pc-form/monacoeditorwork/editor.worker.bundle.js",
+  "json": "/pc-form/monacoeditorwork/json.worker.bundle.js",
+  "css": "/pc-form/monacoeditorwork/css.worker.bundle.js",
+  "html": "/pc-form/monacoeditorwork/html.worker.bundle.js",
+  "typescript": "/pc-form/monacoeditorwork/ts.worker.bundle.js",
+  "javascript": "/pc-form/monacoeditorwork/ts.worker.bundle.js",
+  "less": "/pc-form/monacoeditorwork/css.worker.bundle.js",
+  "scss": "/pc-form/monacoeditorwork/css.worker.bundle.js",
+  "handlebars": "/pc-form/monacoeditorwork/html.worker.bundle.js",
+  "razor": "/pc-form/monacoeditorwork/html.worker.bundle.js"
+});</script>
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="keywords" content="表单设计器" />
+        <meta name="description" content="表单设计器" />
+        <title>表单设计器</title>
+      <script type="module" crossorigin src="/pc-form/assets/js/index-Wru4YmRH.js"></script>
+      <link rel="modulepreload" crossorigin href="/pc-form/assets/js/element-plus-CMg6p5OW.js">
+      <link rel="modulepreload" crossorigin href="/pc-form/assets/js/vendor-B_MZhhih.js">
+      <link rel="modulepreload" crossorigin href="/pc-form/assets/js/config-DxPCH42P.js">
+      <link rel="modulepreload" crossorigin href="/pc-form/assets/js/monaco-editor/index-Burs3had.js">
+      <link rel="stylesheet" crossorigin href="/pc-form/assets/style/vendor-CkXSgKxz.css">
+      <link rel="stylesheet" crossorigin href="/pc-form/assets/style/monaco-editor/index--apEJak-.css">
+      <link rel="stylesheet" crossorigin href="/pc-form/assets/style/index-BedkpCSC.css">
+    </head>
+
+    <body>
+        <div id="app"></div>
+    </body>
+</html>
