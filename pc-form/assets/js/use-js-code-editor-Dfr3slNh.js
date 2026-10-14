@@ -1,1 +1,0 @@
-import{r as t}from"./vendor-B_MZhhih.js";function c(r,u,i){const o=t(!1),s=t(),a=t(""),d=e=>{s.value=e,a.value=r[e],o.value=!0},l=()=>{o.value=!1};return{isShowJsCodeEditorDialog:o,eventValue:a,showJsCodeEditorDialog:d,closeJsCodeEditorDialog:l,saveJsCode:e=>{s.value&&u?.(i,s.value,e),l()}}}export{c as u};
